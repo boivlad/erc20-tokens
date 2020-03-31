@@ -1,5 +1,5 @@
 const Token = artifacts.require("ERCToken");
 
 module.exports = function(deployer) {
-  deployer.deploy(Token, 'Gold', 'GLD', 1000);
+  deployer.deploy(Token, 'Litecoin', 'LTC', 1000);
 };
